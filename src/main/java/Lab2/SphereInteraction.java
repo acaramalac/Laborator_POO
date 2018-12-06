@@ -17,7 +17,7 @@ public class SphereInteraction extends Sphere{
 
     /**
      * This method could be effectuated without volume calculation
-     * As the volume, according to formula, depends only on radius
+     * As the volume, according to formula, depends on radius only
      */
     private void checkIfSpheresMatch(){
         if ( SphereVolume1 > SphereVolume2 ){
